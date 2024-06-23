@@ -62,7 +62,7 @@ export const DB = new Database();
 export const initialSettings = {
     openaiKey: '',
     image_steps: 20,
-    system_prompt: 'You are ChatGPT, a large language model trained by OpenAI. Follow the user\'s instructions carefully. Respond using markdown.',
+    system_prompt: '你是一个人工智能助手，你需要小心地按照提示进行回答，你需要使用Markdown。',
 }
 
 export type Settings = typeof initialSettings
